@@ -9,7 +9,9 @@
   "scripts": {
     "build": "node build.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bower": "^1.8.2"
+  },
   "devDependencies": {
     "api-console-builder": "^0.1.3"
   }
