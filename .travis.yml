@@ -1,7 +1,8 @@
 language: node_js
 node_js:
-- 6
+- stable
 before_script:
+- npm i api-console-cli
 - npm install
 script: bash ./deploy.sh
 before_install:
