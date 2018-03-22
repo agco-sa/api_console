@@ -5,7 +5,7 @@ const builder = require('api-console-builder');
 const fs = require('fs');
 
 builder({
-  src: 'https://github.com/mulesoft/api-console/archive/v4.1.0.zip',
+  src: 'https://github.com/mulesoft/api-console/archive/v3.0.27.zip',
   dest: 'build',
   raml: 'api/api.raml', // note that the deploy.sh script will clone the repo to api/ folder.
   useJson: true,
