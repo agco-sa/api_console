@@ -10,9 +10,6 @@
     "build": "node build.js"
   },
   "dependencies": {
-    "bower": "^1.8.2"
-  },
-  "devDependencies": {
-    "api-console-builder": "^0.4.7"
+    "api-console-builder": "^0.1.0"
   }
 }
