@@ -72,8 +72,5 @@
     "demo",
     "docs"
   ],
-  "version": "4.0.0-beta",
-  "resolutions": {
-    "raml-json-enhance": "^0.3.2"
-  }
+  "version": "4.0.0-beta"
 }
