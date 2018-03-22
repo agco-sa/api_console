@@ -48,10 +48,10 @@ git config user.name "Travis CI"
 git config user.email "mail@domain.com"
 
 # If there are no changes to the compiled api (e.g. this is a README update) then just bail.
-if git diff --quiet; then
-    echo "No changes to the output on this push; exiting."
-    exit 0
-fi
+# if git diff --quiet; then
+#     echo "No changes to the output on this push; exiting."
+#     exit 0
+# fi
 
 echo "Deploying..."
 # Commit the changes.
