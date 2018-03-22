@@ -74,6 +74,6 @@
   ],
   "version": "4.0.0-beta",
   "resolutions": {
-    "raml-json-enhance": "^0.2.2"
+    "raml-json-enhance": "^0.3.2"
   }
 }
