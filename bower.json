@@ -43,7 +43,8 @@
     "paper-header-panel": "PolymerElements/paper-header-panel#^1.1.7",
     "paper-toolbar": "PolymerElements/paper-toolbar#^1.1.7",
     "iron-scroll-target-behavior": "PolymerElements/iron-scroll-target-behavior#^1.1.1",
-    "headers-parser-behavior": "advanced-rest-client/headers-parser-behavior#^0.1.1"
+    "headers-parser-behavior": "advanced-rest-client/headers-parser-behavior#^0.1.1",
+    "raml-json-enhance": "advanced-rest-client/raml-json-enhance#^0.3.2"
   },
   "devDependencies": {
     "iron-component-page": "polymerelements/iron-component-page#1.0.0",
@@ -71,5 +72,8 @@
     "demo",
     "docs"
   ],
-  "version": "4.0.0-beta"
+  "version": "4.0.0-beta",
+  "resolutions": {
+    "raml-json-enhance": "^0.2.2"
+  }
 }
